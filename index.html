@@ -1,0 +1,98 @@
+<?php
+ require_once 'app/connection.php';
+ ?>
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="description" content="Sistema informatico Online">
+    <link rel="icon" href="https://materializecss.com/images/favicon/favicon-32x32.png" sizes="32x32">
+    <meta name="theme-color" content="black">
+  <title>Sistema informatico Online</title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+</head>
+
+<body>
+  <main>
+      <div class="section"></div>
+      <h5 class="text-center">Inicia sesion en tu cuenta</h5>
+      <div class="section"></div>
+
+      <div class="container">
+        <div class="z-depth-1 grey lighten-4 row login">
+
+          <form class="col s12" method="post">
+            <div class='row'>
+              <div class='col s12'>
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class='input-field col s12'>
+                <input class='validate' type='email' name='email' id='email' required="" autocomplete="off" />
+                <label for='email'>Introduce  el correo electronico</label>
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class='input-field col s12'>
+                <input class='validate' type='password' name='password' id='password' required=""  autocomplete="off"/>
+                <label for='password'>Introduce el password</label>
+              </div>
+              <label style='float: right;'>
+                <a class='black-text' href='#!'><b>Se me olvido el password?</b></a>
+              </label>
+            </div>
+
+            <br />
+              <div class='row'>
+              <br>
+                <button  type='submit' name='btn_login' class='col s12 btn btn-large iniciar'>Iniciar sesion</button>
+              </div>
+          </form>
+        </div>
+      </div>
+      <a  class="black-text" href="create_user.php"><p class="text-center">Crear una nueva cuenta</p></a>
+
+    <div class="section"></div>
+    <div class="section"></div>
+  </main>
+
+
+ <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Footer Content</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Redes sociales</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Facebook</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Twitter</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2018 Sistema online
+            <a target="_black" class="grey-text text-lighten-4 right" href="https://gilbertoquinteroa.github.io/MyWork/">Desarrollador por</a>
+            </div>
+          </div>
+        </footer>
+            
+
+
+<script src="js/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+
+</body>
+</html>
+
